@@ -1,6 +1,6 @@
 .bg {
   background-color: rgb(41, 141, 255);
-  background-image: url("bg.jpg");
+  background-image: url("./images/bg.jpg");
   color: white;
   background-attachment: fixed;
   background-position: 0 center;
@@ -15,19 +15,19 @@
   margin: 120px 0;
 }
 
-.text-wrapper p {
+.text-wrapper {
   width: 350px;
 }
 
 .avatar {
-    
-    width: 130px;
-    height: 130px;
-    left: 861px;
-    top: 380px;
-    
-    background: url(t7fjQ3xJByQ.jpg), #C4C4C4;
-    border-radius: 70px;
+  margin-left: 60px;
+  width: 150px;
+  height: 150px;
+  left: 861px;
+  top: 380px;
+
+  background: url(t7fjQ3xJByQ.jpg), #c4c4c4;
+  border-radius: 100px;
 }
 
 .text-wrapper h1 {
@@ -72,6 +72,10 @@
   max-width: 100%;
   height: auto;
   margin: 15px 10px 0 0;
+}
+
+img {
+  width: 30px;
 }
 
 .icons div {
